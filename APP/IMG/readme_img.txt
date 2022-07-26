@@ -1,0 +1,1 @@
+Obrazy dla aplikacji.
