@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pwr.meteor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:6:22-71
+13
+14    <application
+14-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:8:5-31:19
+15        android:allowBackup="true"
+15-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\jakub\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:10:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:11:9-54
+20        android:icon="@drawable/ikona"
+20-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:12:9-39
+21        android:label="@string/app_name"
+21-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@drawable/ikona"
+22-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:14:9-44
+23        android:supportsRtl="true"
+23-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/Theme.MeteoR" >
+24-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:16:9-44
+25        <activity
+25-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:18:9-30:20
+26            android:name="com.pwr.meteor.MainActivity"
+26-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:19:13-41
+27            android:exported="true" >
+27-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:20:13-36
+28            <intent-filter>
+28-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:22:17-69
+29-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:24:17-77
+31-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:24:27-74
+32            </intent-filter>
+33
+34            <meta-data
+34-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:27:13-29:36
+35                android:name="android.app.lib_name"
+35-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:28:17-52
+36                android:value="" />
+36-->C:\Users\jakub\AndroidStudioProjects\MeteoR\app\src\main\AndroidManifest.xml:29:17-33
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.pwr.meteor.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jakub\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jakub\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jakub\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jakub\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
